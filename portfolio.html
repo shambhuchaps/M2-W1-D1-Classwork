@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Landing Page</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Merriweather:wght@700&family=Mr+Dafoe&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Smooch&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&family=Mr+Dafoe&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Smooch&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/ad9fa19830.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav>
+    <h3 class="logo">Shambhu Chapagain</h3>
+    <ul style="z-index: 1;" class="nav-items">
+      <li class="active">Home</li>
+      <li>About</li>
+      <div class="experience">
+        <li onclick="experience();" class="exp-contain">Experience &nbsp; <i class="fa fa-caret-down"></i></li>
+        <div class="abt-drop-content">
+          <ul>
+            <li class="web-dev"><i class="fa fa-user"></i>Web Development</li>
+            <li><i class="fa fa-users"></i> UI/UX Designer</li>
+            <li><i class="fa fa-globe"></i> Front-End Web Developer</li>
+            <li class="web-master"><i class="fa fa-file"></i> Web Master</li>
+          </ul>
+        </div>
+      </div>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+          <path
+            d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z" />
+        </svg>
+      </li>
+    </ul>
+  </nav>
+  <div class="index-abt-sec">
+    <h1 class="about-me-txt">Pricing Plans</h1>
+
+    <ul class="port-nav">
+        <li class="port-active" onclick="everything()">Everything</li>
+        <li onclick="art()">Art</li>
+        <li onclick="creative()">Creative</li>
+        <li onclick="design()">Design</li>
+    </ul>
+    <div class="for-everything  port-hide">
+      <div class="for-everything-1">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+      <div class="for-everything-2">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+  </div>
+
+  <div class="for-arts port-hide">
+      <div class="for-arts-1">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+      <div class="for-arts-2">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+  </div>
+
+  <div class="for-creative port-hide">
+      <div class="for-creative-1">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+      <div class="for-creative-2">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+  </div>
+
+  <div class="for-design port-hide">
+      <div class="for-design-1">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+      <div class="for-design-2">
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+          <span class="portfolio-img-display"></span>
+      </div>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
